@@ -1,3 +1,28 @@
+## ament_cmake_ros (eloquent) - 0.8.0-1
+
+The packages in the `ament_cmake_ros` repository were released into the `eloquent` distro by running `/usr/bin/bloom-release --rosdistro eloquent ament_cmake_ros` on `Tue, 24 Sep 2019 17:04:39 -0000`
+
+These packages were released:
+- `ament_cmake_ros`
+- `domain_coordinator`
+
+Version of package(s) in repository `ament_cmake_ros`:
+
+- upstream repository: https://github.com/ros2/ament_cmake_ros.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.8.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.12`
+- rosdep version: `0.15.2`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.42`
+
+
 ## ament_cmake_ros (dashing) - 0.7.0-1
 
 The packages in the `ament_cmake_ros` repository were released into the `dashing` distro by running `/home/steven/osrf/bloom/myscripts/py3env/bin/bloom-release -n -r dashing ament_cmake_ros --override-release-repository-push-url git@github.com:ros2-gbp/ament_cmake_ros-release` on `Thu, 11 Apr 2019 19:27:26 -0000`
