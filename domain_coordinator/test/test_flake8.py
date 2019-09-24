@@ -12,14 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# generated from ament_cmake_ros/ament_cmake_ros-extras.cmake.in
+from ament_flake8.main import main
 
-find_package(ament_cmake_gmock QUIET REQUIRED)
-find_package(ament_cmake_gtest QUIET REQUIRED)
-find_package(ament_cmake_pytest QUIET REQUIRED)
-include("${ament_cmake_ros_DIR}/ament_add_ros_isolated_gmock.cmake")
-include("${ament_cmake_ros_DIR}/ament_add_ros_isolated_gtest.cmake")
-include("${ament_cmake_ros_DIR}/ament_add_ros_isolated_pytest.cmake")
 
-include("${ament_cmake_ros_DIR}/build_shared_libs.cmake")
-add_definitions(-DROS_PACKAGE_NAME=\"${PROJECT_NAME}\")
+def test_flake8():
+    rc = main(argv=[])
+    assert rc == 0, 'Found code style errors / warnings'
