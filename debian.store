@@ -1,1 +1,1 @@
-{"trim": "", "base": "1211569", "trimbase": "", "parent": "debian/eloquent/ament_cmake_ros", "previous": "175ef64"}
+{"base": "7ab5e17", "parent": "debian/verystable/ament_cmake_ros", "previous": "8c9dc85", "trim": "", "trimbase": ""}
