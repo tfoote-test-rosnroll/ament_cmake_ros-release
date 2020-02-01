@@ -1,0 +1,12 @@
+Source: ros-verystable-ament-cmake-ros
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-domain-coordinator, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ament-cmake-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ament-cmake, ros-verystable-ament-cmake-gmock, ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-pytest, ros-verystable-domain-coordinator, ros-verystable-ros-workspace
+Description: The ROS specific CMake bits in the ament buildsystem.
